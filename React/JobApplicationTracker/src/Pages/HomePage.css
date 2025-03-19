@@ -1,0 +1,17 @@
+.homepage {
+    background-image: url("/1.jpg"); /* ✅ Correct relative path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent */
+    padding: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
